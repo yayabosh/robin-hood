@@ -1,22 +1,22 @@
 'use strict';
 // Parse emails from mailing list
 const csvsync = require('csvsync')
-const fs = require('fs')
-const csv = fs.readFileSync('emails.csv')
-const data = csvsync.parse(csv)
+const fs      = require('fs')
+const csv     = fs.readFileSync('emails.csv')
+const data    = csvsync.parse(csv)
 
 // Send emails
 const nodemailer = require('nodemailer')
 
 // Username and password info contained in local file
 const { auth } = require('./secrets.js')
-const USER = auth.user
-const PASS = auth.pass
+const USER     = auth.user
+const PASS     = auth.pass
 
 // User information
-const NAME = 'Marisa Robertson'
-const CITY = 'Cupertino'
-const STATE = 'California'
+const NAME    = 'Marisa Robertson'
+const CITY    = 'Cupertino'
+const STATE   = 'California'
 const ADDRESS = 'P. Sherman 42 Wallaby Way, Sydney, Australia'
 
 const email = async () => {
