@@ -1,6 +1,6 @@
 const auth = {
-    user: 'youremail@email.com',
-    pass: 'yourpassword'
+    user: '' ,
+    pass: ''
 }
 
 module.exports = { auth }
