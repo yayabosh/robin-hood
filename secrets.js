@@ -1,5 +1,5 @@
 const auth = {
-    user: '' ,
+    user: '',
     pass: ''
 }
 
