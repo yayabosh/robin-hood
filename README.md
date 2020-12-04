@@ -9,7 +9,7 @@
 - Fill in your username and password in `secrets.js`.
 - Fill out the information you want to be sent in your email in `robinhood.js`. If you just want to use the default email message, there's already some fields available to be filled out, like `NAME`, `CITY`, and more.
 - Run `robinhood.js`! A message will print to the console when each email sends.
-  - If this is your first time running the script, it will send emails to the first 400 colleges in `emails.csv`. If you want to send emails to another set of colleges, adjust the iterators in the for loop to match the rows contained in `emails.csv` for your set of colleges.
+  - The script will send emails to the first 400 colleges in `emails.csv`. If you want to send emails to another set of colleges, adjust the iterators in the for loop to match the rows contained in `emails.csv` for your set of colleges.
 
 ### Who does this send emails to?
 
