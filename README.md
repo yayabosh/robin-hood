@@ -10,5 +10,9 @@
 - Fill out the information you want to be sent in your email in `robinhood.js`. If you just want to use the default email message, there's already some fields available to be filled out, like `NAME`, `CITY`, and more.
 - Run `robinhood.js`! A message will print to the console when each email sends.
 
+### Who does this send emails to?
+
+Check out `emails.csv` for the full list of 1717 colleges! Note that Gmail limits you to sending around 500 emails per day, so this script only sends 400 emails at a time.
+
 
 Enjoy your merchandise and be sure to [donate any other clothing](https://www.valuevillage.com/donate) you receive!
