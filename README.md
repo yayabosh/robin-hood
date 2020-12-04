@@ -1,5 +1,14 @@
 # robin-hood
 
-the only npm modules required for this script are [csvsync](https://www.npmjs.com/package/csvsync) and [nodemailer](https://www.npmjs.com/package/nodemailer).
+### How do I use this?
 
-enjoy your merchandise and be sure to donate any other clothing you receive! (pro tip: uchicago loves giving out t-shirts)
+- Download this repository and open it in the IDE or text editor of your choice.
+- If you haven't already, install [Node.js](https://nodejs.org/en/download/).
+- Use npm to install [csvsync](https://www.npmjs.com/package/csvsync) and [nodemailer](https://www.npmjs.com/package/nodemailer).
+  - This script uses Gmail to send emails, so you might have to [allow less secure apps](https://www.google.com/settings/security/lesssecureapps) to allow nodemailer to send emails from your account.
+- Fill in your username and password in `secrets.js`.
+- Fill out the information you want to be sent in your email in `robinhood.js`. If you just want to use the default email message, there's already some fields available to be filled out, like `NAME`, `CITY`, and more.
+- Run `robinhood.js`! A message will print to the console when each email sends.
+
+
+Enjoy your merchandise and be sure to [donate any other clothing](https://www.goodwill.org/donate/donate-stuff/) you receive!
