@@ -11,4 +11,4 @@
 - Run `robinhood.js`! A message will print to the console when each email sends.
 
 
-Enjoy your merchandise and be sure to [donate any other clothing](https://www.goodwill.org/donate/donate-stuff/) you receive!
+Enjoy your merchandise and be sure to [donate any other clothing](https://www.valuevillage.com/donate) you receive!
